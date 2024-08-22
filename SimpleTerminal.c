@@ -276,8 +276,6 @@ int main()
 
     signal(SIGINT, handle_signal);
     signal(SIGQUIT, handle_signal);
-  //  char command4[] = "ls && echo hey";
-    //parse_and_execute(command4, history_count, command_history);
 
     while (1)
     {
